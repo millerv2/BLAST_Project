@@ -3,7 +3,7 @@ import sys
 
 init()
 
-# check for proper inputs:
+# check for proper inputs
 if len(sys.argv)<3:
     print("Please specify the accessions of two proteins to retreive their alignment!")
     sys.exit(1)
